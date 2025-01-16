@@ -7,10 +7,10 @@ files:
     destination: /opt/taskapp/backend
 hooks:
   BeforeInstall:
-    - location: /opt/taskapp/scripts/install_dependencies.sh
+    - location: /install_dependencies.sh
       timeout: 300
       runas: root
   AfterInstall:
-    - location: /opt/taskapp/scripts/start_server.sh
+    - location: /start_server.sh
       timeout: 300
       runas: root
