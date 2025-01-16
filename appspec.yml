@@ -1,9 +1,9 @@
 version: 0.0
 os: linux
 files:
-  - source: /frontend.zip
+  - source: /TM_FE_jan.zip
     destination: /opt/taskapp/frontend
-  - source: /backend.zip
+  - source: /
     destination: /opt/taskapp/backend
 hooks:
   BeforeInstall:
