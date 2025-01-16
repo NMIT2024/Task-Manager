@@ -3,7 +3,7 @@ os: linux
 files:
   - source: /TM_FE_jan.zip
     destination: /opt/taskapp/frontend
-  - source: /
+  - source: /TM_BE_jan.zip.zip
     destination: /opt/taskapp/backend
 hooks:
   BeforeInstall:
